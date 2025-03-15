@@ -1,0 +1,49 @@
+.heading {
+    color: Black;
+    font-weight: bold;
+    font-size: 24px;
+    }
+
+  .stock {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+  }
+ 
+  .button-cart {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 20px;
+    height: 30px;
+    width: 160px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.15s;
+  }
+
+  .button-cart:hover {
+      background-color: rgb(219, 188, 38);
+  }
+
+  .button-cart:active {
+      background-color: rgb(219, 188, 38);
+  }
+  
+  .button-buy {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border-radius: 20px;
+    height: 30px;
+    width: 160px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.15s;
+  }
+
+  .button-buy:hover {
+      background-color: rgb(232, 147, 20)
+  }
+
+  .button-buy:active {
+      background-color: rgb(232, 147, 20)
+  }
