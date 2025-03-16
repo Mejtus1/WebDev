@@ -1,0 +1,25 @@
+
+.picture {
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+
+}
+
+.textbox {
+    vertical-align: middle;
+    border: none;
+    width: 300px;
+}
+
+.button {
+    vertical-align: middle;
+    background-color: rgb(27, 133, 225);
+    color: white;
+    border-radius: 25px;
+    height: 30px;
+    width: 70px;
+    border: none;
+}
