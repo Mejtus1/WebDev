@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid Exercises</title>
+        <style>
+            .grid1 {
+                display: grid;  
+                grid-template-columns: 200px 75px;
+            }
+
+            .grid2 {
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+            }
+
+            .grid3 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+    <div class="grid1">
+        <div style="background-color: lightseagreen;">
+            75px
+        </div>
+        <div style="background-color: lightgreen;">
+            200px
+        </div>
+    </div>
+
+<br>
+<br>
+<br>
+
+    <div class="grid2">
+        <div style="background-color: lightseagreen;"> col1 </div>
+        <div style="background-color: lightgreen;"> col2 </div>
+        <div style="background-color: lightseagreen;"> col3 </div>
+    </div>
+
+<br>
+<br>
+<br>    
+
+    <div class="grid3">
+        <div style="background-color: lightseagreen;"> col1 </div>
+        <div style="background-color: lightgreen;"> col2 </div>
+        <div style="background-color: lightseagreen;"> col3 </div>
+        <div style="background-color: lightgreen;"> col4 </div>
+        <div style="background-color: lightseagreen;"> col5 </div>
+        <div style="background-color: lightgreen;"> col6 </div>
+        <div style="background-color: lightseagreen;"> col7 </div>
+        <div style="background-color: lightgreen;"> col8 </div>
+    </div>
+
+<br>
+<br>
+<br>
+
+    </body>
+</html>
