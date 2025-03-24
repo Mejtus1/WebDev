@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox Exercises</title>
+        <style>
+
+            div {
+                font-family: Arial;
+            }
+
+            .header {
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+            }
+
+            .left {
+                background-color: lightblue;
+                width: 200px;
+            }
+
+            .right {
+                background-color: lightpink;
+                width: 75px;
+            }
+
+            .header2 {
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+            }
+
+            .div1 {
+                background-color: lightblue;
+                width: 50px;
+            }
+
+            .div2 {
+                background-color: pink;
+                flex: 1;
+            }
+
+            .div3 {
+                background-color: lightblue;
+                width: 75px;
+            }
+
+            .header3 {
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                justify-content: space-between;
+            }
+
+            .header4 {
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                border-width: 1px;
+                border-style: solid;
+                height: 50px;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .item1 {
+                background-color: lightpink;
+            }
+
+            .item2 {
+                background-color: lightpink;
+            }
+
+            .drop-down {
+                margin-top: 30px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: grey;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                width: 250px;
+            }
+
+            .container {
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200, 200, 200);
+                width: 300px;
+                border-radius: 6px;
+            }
+
+            .flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            .notifications {
+                background-color: rgb(49, 109, 245);
+                color: white;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 20px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .container-row {
+                display: flex;
+                width: 300px;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .div-picture {
+                width: 50px;
+                padding: 5px;
+            }
+
+            .picture {
+                width: 100%;
+                border-radius: 60px;
+            }
+
+            .div-name {
+                width: 120px;
+            }
+
+            .div-button {
+
+            }
+
+            .Button {
+                color: white;
+                background-color: rgb(92, 160, 223);
+                padding-right: 10px;
+                border-radius: 5px;
+                padding: 5px;
+                padding-right: 10px;
+                padding-left: 10px;
+                border: none;
+                cursor: pointer;
+            }
+
+            .container-column {
+                display: flex;
+                flex-direction: column;
+                width: 300px;   
+            }
+
+            .div-flex-purple {
+                display: flex;
+                flex-direction: row;
+                background-color: purple;
+                height: 46px;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .button-download {
+                background-color: purple;
+                color: white;
+                padding-right: 12px;
+                padding-left: 12px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                margin-right: 10px;
+                border-width: 1px;
+                border-color: white;
+                border-style: solid;
+                cursor: pointer;
+            }
+
+            .input-search {
+                flex: 1;
+                width: 400px;
+                border-radius: 25px;
+                padding-left: 15px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+            }
+
+            .button-home{
+                cursor: pointer;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-left: 10px;
+                background-color: purple;
+                border: none;
+                color: white;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left">200px</div>
+            <div class="right">75px</div>
+        </div>
+
+        <div class="header2">
+            <div class="div1">item1</div>
+            <div class="div2">item2</div>
+            <div class="div3">item3</div>
+        </div>
+
+        <div class="header3">
+            <div style="background-color: lightgreen;">item1</div>
+            <div style="background-color: lightgreen;">item2</div>
+            <div style="background-color: lightgreen;">item3</div>
+            <div style="background-color: lightgreen;">item4</div>
+        </div>
+
+        <div class="header4">
+            <div class="item1">item1</div>
+            <div class="item2">item2</div>
+        </div>
+
+<br> 
+<br>
+
+        <div class="container">
+            <div class="flexbox">
+                <div>Home</div>
+                <div class="notifications">14</div>
+            </div>
+            <div class="flexbox">
+                <div>Notifications</div>
+                <div class="notifications">3</div>
+            </div>
+            <div class="flexbox">
+                <div>Messages</div>
+                <div class="notifications">5</div>
+            </div>
+        </div>
+
+<br>
+<br>
+
+    <div class="contain-column">
+        <div class="container-row">
+            <div class="div-picture">
+                <img class="picture" src="Lesson7.png" alt="DogePicture">
+            </div>
+            <div class="div-name">
+                <div><b>Doge</b></div>
+                <div style="color: grey; font-family: Arial; font-size: 15px; padding-top: 1px; padding-bottom: 1px;">the dog</div>
+                <div style="color: grey; font-family: Arial; font-size: 13px;">Popular</div>
+            </div>
+            <div class="div-button">
+                <button class="Button">Follow</button>
+            </div>
+        </div>
+
+        <div class="container-row">
+            <div class="div-picture">
+                <img class="picture" src="Lesson9.1.png" alt="DogePicture">
+            </div>
+            <div class="div-name">
+                <div><b>DogWifHat</b></div>
+                <div style="color: grey; font-family: Arial; font-size: 15px; padding-top: 1px; padding-bottom: 1px;">dog wif hat</div>
+                <div style="color: grey; font-family: Arial; font-size: 13px;">Popular</div>
+            </div>
+            <div class="div-button">
+                <button class="Button">Follow</button>
+            </div>
+        </div>
+
+        <div class="container-row">
+            <div class="div-picture">
+                <img class="picture" src="Lesson9.jpg" alt="DogePicture">
+            </div>
+            <div class="div-name">
+                <div><b>PePe</b></div>
+                <div style="color: grey; font-family: Arial; font-size: 15px; padding-top: 1px; padding-bottom: 1px;">the FROG</div>
+                <div style="color: grey; font-family: Arial; font-size: 13px;">Popular</div>
+            </div>
+            <div class="div-button">
+                <button class="Button">Follow</button>
+            </div>
+        </div>
+    </div>
+
+<br>
+<br>
+
+    <div class="div-flex-purple">
+        <div class="div-button-home">
+            <button class="button-home">Home</button>
+        </div>
+        <div class="div-search">
+            <input class="input-search" type="text" placeholder="Search">
+        </div>
+        <div class="div-button-download">
+            <button class="button-download">Download</button>
+        </div>
+    </div>
+
+
+
+
+    </body>
+</html>
