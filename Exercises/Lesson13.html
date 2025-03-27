@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+            .container {
+                display: flex;
+                align-items: row;
+                height: 50px;
+                width: 400px;
+            }
+
+            .div-flex1 {
+                flex: 1;
+                background-color: lightblue;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .div-color {
+                flex: 2;
+                background-color: lightpink;
+            }
+
+            .flexbox {
+                display: flex;
+                align-items: row;
+                width: 400px;
+                height: 50px;
+            }
+
+            .one {
+                background-color: lightblue;
+                flex: 1;
+            }
+
+            .two {
+                background-color: lightpink;
+                flex: 2;
+            }
+
+            .row2{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+
+            .container3 {
+                box-shadow: inset 0px 0px 2px rgba(1, 1, 1, 1);
+                width: 380px;
+            }
+
+            .image {
+                height: 44px;
+                border-radius: 20px;
+                margin-right: 18px;
+                margin-top: 7px;
+                
+            }
+            
+            .container-flexbox {
+                display: flex;
+                align-items: row;
+                justify-content: center;
+                height: 75px;
+                margin-top: 7px;
+            }
+
+            .div-flexbox2 {
+                display: flex;
+                align-items: row;
+                justify-content: space-between;
+            }
+
+            .allinboxes {
+                width: 400px;
+                font-family: Arial;
+                font-size: 12px;
+                margin-left: 10px;
+                margin-top: 14px;
+                padding-top: 7px;
+                
+            }
+
+            .text1 {
+                font-family: Arial;
+                font-size: 17px;
+                font-weight: bold;
+            }
+
+            .text2 {
+                font-family: Arial;
+                font-size: 12px;
+                color: grey;
+            }
+
+            .text3 {
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 15px;
+                margin-top: 3px;
+                margin-bottom: 3px;
+            }
+
+            .text4 {
+                font-family: Arial;
+                color: grey;
+                font-size: 14px;
+            }
+
+
+
+
+            .container4 {
+                width: 450px;
+                height: 210px;
+                box-shadow: inset 0px 0px 2px rgba(1, 1, 1, 1);
+            }
+
+            .div-flex11 {
+                display: flex;
+                font-family: Arial;
+                padding-top: 15px;
+            }
+
+            .imageDoge {
+                height: 55px;
+                border-radius: 30px;
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+
+            .div-flex22 {
+                display: flex;
+                border-width: 1px;
+                border-color: rgb(191, 189, 189);
+                border-style: solid;
+                margin-left: 70px;
+                border-radius: 15px;
+                margin-top: 20px;
+                margin-right: 20px;
+            }
+
+            .backColor {
+                flex: 1;
+                background-color: rgb(216, 216, 216);
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+            }
+
+            .nobackColor {
+                flex: 3;
+                margin-top: 10px;
+                margin-left: 10px;
+                font-family: Arial;
+                margin-bottom: 10px;
+            }
+
+            .tag {
+                padding-bottom: 5px;
+            }
+
+            .text5 {
+                line-height: 20px;
+            }
+
+            .text6 {
+                color: rgb(61, 60, 60);
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+
+            .text7 {
+                line-height: 20px;
+                padding-bottom: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+    <div class="container">
+        <div class="div-flex1">
+            <div style="background-color: black; color: white;">item1</div>
+        </div>
+        <div class="div-color">
+
+        </div>
+    </div>
+
+<br>
+<br>
+<br>
+
+    <div class="flexbox">
+        <div class="one"></div>
+        <div class="two">
+            <div>row1</div>
+            <div class="row2">
+                <div style="background-color: black; color: white;">row2</div>
+                <div style="background-color: black; color: white;">row2</div>
+            </div>
+        </div>
+    </div>
+
+<br>
+<br>
+<br>    
+
+    <div class="container3">
+        <div class="allinboxes">ALL INBOXES</div>
+            <div class="container-flexbox">
+                <div>
+                    <img class="image" src="Lesson7.png"> <!--hotovo-->
+                </div>
+                <div>
+                    <div class="div-flexbox2">
+                        <div class="text1">Chewy Promotions</div>
+                        <div class="text2">4:58 PM</div>
+                    </div>
+                        <div class="text3">Biggest sales of the year!</div>
+                        <div class="text4">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    
+    <div class="container3">
+        <div class="allinboxes">ALL INBOXES</div>
+            <div class="container-flexbox">
+                <div>
+                    <img class="image" src="Lesson7.png">
+                </div>
+                <div>
+                    <div class="div-flexbox2">
+                        <div class="text1">Chewy Promotions</div>
+                        <div class="text2">4:58 PM</div>
+                    </div>
+                        <div class="text3">Biggest sales of the year!</div>
+                        <div class="text4">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+            <div class="container-flexbox">
+                <div>
+                    <img class="image" src="Lesson9.1.png"> 
+                </div>
+                <div>
+                    <div class="div-flexbox2">
+                        <div class="text1">Best Buy</div>
+                        <div class="text2">12:32 PM</div>
+                    </div>
+                        <div class="text3">Your Best Buy eReceipt</div>
+                        <div class="text4">Thank you for shopping at Best Buy, here is...</div>
+                </div>
+            </div>
+            <div class="container-flexbox">
+                <div>
+                    <img class="image" src="Lesson9.jpg">
+                </div>
+                <div>
+                    <div class="div-flexbox2">
+                        <div class="text1">Netflix</div>
+                        <div class="text2">9:00 AM</div>
+                    </div>
+                        <div class="text3">Coming soon to Netflix</div>
+                        <div class="text4">Brand new movies and shows, old favorites...</div>
+                </div>
+            </div>
+    </div>
+
+<br>
+<br>
+<br>
+
+    <div class="container4">
+        <div class="div-flex11">
+            <img class="imageDoge" src="Lesson7.png">
+            <div class="div-flex111">
+                <div class="tag"><b>supersimple.dev</b> @SuperSimpleDev</div>
+                <div class="text5">What is backend web development? A complete overview. New video is up!</div>
+            </div>
+        </div>
+        <div>
+            <div class="div-flex22">
+                <div class="backColor"></div>
+                <div class="nobackColor">
+                    <div class="text6">youtube.com</div>
+                    <div class="text7">Backend web development - a complete overview (2021)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
